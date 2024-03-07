@@ -3,8 +3,8 @@ import hbd from "../assets/birthday.png";
 
 const Home = () => {
   return (
-    <div className="flex justify-between items-center">
-      <div className="overflow-auto p-[1rem] bg-gray-800 h-[29rem] w-[45rem] max-md:w-[19rem] rounded-2xl m-[3rem] max-md:m-[3rem] lg:relative left-[2rem] lg:mr-[5rem]">
+    <div className="flex justify-between items-center max-sm:flex-col-reverse md:flex-col-reverse lg:flex-row">
+      <div className="overflow-auto p-[1rem] bg-gray-800 h-[29rem] w-[45rem] max-md:w-[19rem] rounded-2xl m-[3rem] max-md:m-[3rem] md:w-[35rem] lg:relative left-[2rem] lg:mr-[5rem]">
         <p>
           Get ready for an exhilarating experience at Hack Genesis '24, the
           inaugural hackathon hosted by the Technical Club of Sciences in
@@ -38,11 +38,11 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="relative z-10">
+      <div className="relative z-10 max-lg:w-auto">
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
-          className="h-[37rem]"
+          className="max-md:w-[25rem] max-md:relative max-md:left-2 md:h-[30rem] lg:h-[37rem]"
         >
           <path
             fill="#FF0066"
@@ -53,7 +53,7 @@ const Home = () => {
 
         <img
           src={hbd}
-          className="w-[40rem] absolute top-[47%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          className="w-[40rem] max-lg:w-auto absolute top-[47%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           alt="Happy Birthday"
         />
       </div>
