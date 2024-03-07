@@ -12,7 +12,7 @@ const Mockup = () => {
           <div className="input">https://khandwlwal_baby.com</div>
         </div>
         {/* <div className="flex justify-center px-4 py-16 bg-base-200">Hello!</div> */}
-        <div className="flex justify-around lg:items-center max-sm:flex-col max-sm:justify-start max-sm:items-center max-sm:hidden">
+        <div className="flex justify-around lg:items-center max-sm:flex-col max-sm:justify-start max-sm:items-center max-md:hidden">
           <h3 className="text-2xl font-small">02 April 2024</h3>
           <h1 className="text-4xl font-bold">Happy Birthday!!!</h1>
           <div
@@ -30,7 +30,7 @@ const Mockup = () => {
         </div>
 
         {/* Small Screen */}
-        <div className=" md:hidden">
+        <div className="md:hidden">
           <div className="flex justify-around items-center">
             <h3 className="text-2xl font-small">02 April 2024</h3>
             <div

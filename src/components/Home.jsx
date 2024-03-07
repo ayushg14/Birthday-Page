@@ -3,8 +3,8 @@ import hbd from "../assets/birthday.png";
 
 const Home = () => {
   return (
-    <div className="flex justify-between items-center max-sm:flex-col-reverse md:flex-col-reverse lg:flex-row">
-      <div className="overflow-auto p-[1rem] bg-gray-800 h-[29rem] w-[45rem] max-md:w-[19rem] rounded-2xl m-[3rem] max-md:m-[3rem] md:w-[35rem] lg:relative left-[2rem] lg:mr-[5rem]">
+    <div className="flex justify-between items-center max-sm:flex-col-reverse md:flex-col-reverse lg:flex-row max-md:flex-col-reverse">
+      <div className="overflow-auto p-[1rem] bg-gray-800 h-[29rem] w-[45rem] max-md:w-[30rem] max-sm:w-[19rem] rounded-2xl m-[3rem] max-md:m-[3rem] md:w-[35rem] lg:relative left-[2rem] lg:mr-[5rem]">
         <p>
           Get ready for an exhilarating experience at Hack Genesis '24, the
           inaugural hackathon hosted by the Technical Club of Sciences in
