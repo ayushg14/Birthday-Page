@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Home from "./Home";
-import Waves from "./Waves";
 import Video from "./Video";
 
 const Mockup = () => {
